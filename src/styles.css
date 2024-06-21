@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #007bff; /* Accent blue */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+button {
+  background: #007bff; /* Accent blue */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
